@@ -1,40 +1,52 @@
+*, html, body{
+  font-family: "Iosevka Charon", monospace;
+}
 body {
-    background-color: #f0faf0;
-  }
+  background-color: #B0D590;
+}
   
-  .observation-card {
-    border: none;
-    border-radius: 0.75rem;
-    transition: transform 0.15s ease;
-  }
+span#app
+{
+    color: #74BB61;
+}
+.observation-card {
+  border: none;
+  border-radius: 0.75rem;
+  transition: transform 0.15s ease;
+}
   
-  .observation-card:hover {
-    transform: translateY(-3px);
-  }
+.observation-card:hover {
+  transform: translateY(-3px);
+}
   
-  .observation-photo {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 0.75rem 0.75rem 0 0;
-  }
-
-.container-fluid{
-    background-color: #74BB61;
-    width: 100%;
-    height: 5vh;
-    align-items:center;
-    display: flex;
+.observation-photo {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 0.75rem 0.75rem 0 0;
 }
 
+.container-fluid{
+  width: 100%;
+  height: 5vh;
+  align-items:center;
+  display: flex;
+}
 
+.footer-class{
+  position: fixed;
+  bottom: 0;
+  padding: 20px;
+  width: 100%;
+}
 .foot{
-    width:80%;
-    display: flex;
-    margin: auto;
+  width:80%;
+  display: flex;
+  margin: auto;
 
 }
 
 .button{
-    background-color: #74BB61;
+    background-color: #AADF82;
 }
+
