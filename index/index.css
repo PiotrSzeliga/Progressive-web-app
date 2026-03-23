@@ -1,0 +1,40 @@
+body {
+    background-color: #f0faf0;
+  }
+  
+  .observation-card {
+    border: none;
+    border-radius: 0.75rem;
+    transition: transform 0.15s ease;
+  }
+  
+  .observation-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .observation-photo {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 0.75rem 0.75rem 0 0;
+  }
+
+.container-fluid{
+    background-color: #74BB61;
+    width: 100%;
+    height: 5vh;
+    align-items:center;
+    display: flex;
+}
+
+
+.foot{
+    width:80%;
+    display: flex;
+    margin: auto;
+
+}
+
+.button{
+    background-color: #74BB61;
+}
