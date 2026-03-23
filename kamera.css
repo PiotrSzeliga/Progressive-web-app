@@ -1,0 +1,24 @@
+body {
+    background-color: #f0faf0;
+  }
+  
+  .camera-preview {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    background: #000;
+  }
+  
+  .captured-photo {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 0.5rem;
+    border: 2px solid #2e7d32;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 0.75rem;
+  }
